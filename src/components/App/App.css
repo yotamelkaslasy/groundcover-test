@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  min-height: 100vh;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #333;
+  font-weight: 800;
+  font-size: 18px;
+  font-family: 'Lato';
+  padding: 0 45px;
+}
+
+.App-header__img {
+  margin-right: 10px;
+}
+
+.App-main {
+  display: flex;
+  justify-content: center;
+  padding: 45px;
+  min-height: 100%;
+  flex: 1;
+}

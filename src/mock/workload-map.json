@@ -1,0 +1,721 @@
+{
+  "nodes": [
+    {
+      "id": "demo-ng-search-service",
+      "workload": "search-service",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "-b-2.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "workload": "b-2.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "namespace": ""
+    },
+    {
+      "id": "demo-ng-recommendationservice",
+      "workload": "recommendationservice",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-productcatalogservice",
+      "workload": "productcatalogservice",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-frontend",
+      "workload": "frontend",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-email-service",
+      "workload": "email-service",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "groundcover-portal",
+      "workload": "portal",
+      "namespace": "groundcover"
+    },
+    {
+      "id": "groundcover-groundcover-victoria-metrics-agent",
+      "workload": "groundcover-victoria-metrics-agent",
+      "namespace": "groundcover"
+    },
+    {
+      "id": "demo-ng-currencyservice",
+      "workload": "currencyservice",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-inventory-customer-blue",
+      "workload": "inventory-customer-blue",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-favorites-service",
+      "workload": "favorites-service",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-checkoutservice",
+      "workload": "checkoutservice",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-cartservice",
+      "workload": "cartservice",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-redis-cart",
+      "workload": "redis-cart",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-pernstore-consumer",
+      "workload": "pernstore-consumer",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-pernstore-backend",
+      "workload": "pernstore-backend",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-usersmanagerservice",
+      "workload": "usersmanagerservice",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-emailservice",
+      "workload": "emailservice",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "-demo-db.ctg1ib2naodr.eu-west-3.rds.amazonaws.com",
+      "workload": "demo-db.ctg1ib2naodr.eu-west-3.rds.amazonaws.com",
+      "namespace": ""
+    },
+    {
+      "id": "lens-metrics-node-exporter",
+      "workload": "node-exporter",
+      "namespace": "lens-metrics"
+    },
+    {
+      "id": "lens-metrics-prometheus",
+      "workload": "prometheus",
+      "namespace": "lens-metrics"
+    },
+    {
+      "id": "groundcover-groundcover-victoria-metrics",
+      "workload": "groundcover-victoria-metrics",
+      "namespace": "groundcover"
+    },
+    {
+      "id": "groundcover-groundcover-groundcover-vmagent",
+      "workload": "groundcover-groundcover-vmagent",
+      "namespace": "groundcover"
+    },
+    {
+      "id": "-b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "workload": "b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "namespace": ""
+    },
+    {
+      "id": "groundcover-alligator",
+      "workload": "alligator",
+      "namespace": "groundcover"
+    },
+    {
+      "id": "demo-ng-inventory-customer-green",
+      "workload": "inventory-customer-green",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-media-service",
+      "workload": "media-service",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-ticketing-service",
+      "workload": "ticketing-service",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-shippingservice",
+      "workload": "shippingservice",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-subscription-service",
+      "workload": "subscription-service",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "groundcover-groundcover-groundcover-tsdb",
+      "workload": "groundcover-groundcover-tsdb",
+      "namespace": "groundcover"
+    },
+    {
+      "id": "demo-ng-adservice",
+      "workload": "adservice",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-sqsproducer",
+      "workload": "sqsproducer",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "-grndcvr-demo.s3.eu-west-3.amazonaws.com",
+      "workload": "grndcvr-demo.s3.eu-west-3.amazonaws.com",
+      "namespace": ""
+    },
+    {
+      "id": "demo-ng-paymentservice",
+      "workload": "paymentservice",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-currency-service",
+      "workload": "currency-service",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "groundcover-groundcover-groundcover-loki",
+      "workload": "groundcover-groundcover-loki",
+      "namespace": "groundcover"
+    },
+    {
+      "id": "groundcover-groundcover-promscale",
+      "workload": "groundcover-promscale",
+      "namespace": "groundcover"
+    },
+    {
+      "id": "groundcover-groundcover-vmagent",
+      "workload": "groundcover-vmagent",
+      "namespace": "groundcover"
+    },
+    {
+      "id": "groundcover-groundcover-loki",
+      "workload": "groundcover-loki",
+      "namespace": "groundcover"
+    },
+    {
+      "id": "demo-ng-loadgenerator",
+      "workload": "loadgenerator",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "demo-ng-sqsconsumer",
+      "workload": "sqsconsumer",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "-sqs.eu-west-3.amazonaws.com",
+      "workload": "sqs.eu-west-3.amazonaws.com",
+      "namespace": ""
+    },
+    {
+      "id": "groundcover-k8s-watcher",
+      "workload": "k8s-watcher",
+      "namespace": "groundcover"
+    },
+    {
+      "id": "groundcover-grafana",
+      "workload": "grafana",
+      "namespace": "groundcover"
+    },
+    {
+      "id": "demo-ng-eventfetcherservice",
+      "workload": "eventfetcherservice",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "lens-metrics-kube-state-metrics",
+      "workload": "kube-state-metrics",
+      "namespace": "lens-metrics"
+    },
+    {
+      "id": "demo-ng-log-backup",
+      "workload": "log-backup",
+      "namespace": "demo-ng"
+    },
+    {
+      "id": "groundcover-groundcover-tsdb",
+      "workload": "groundcover-tsdb",
+      "namespace": "groundcover"
+    },
+    {
+      "id": "-sts.eu-west-3.amazonaws.com",
+      "workload": "sts.eu-west-3.amazonaws.com",
+      "namespace": ""
+    },
+    {
+      "id": "-cartservice",
+      "workload": "cartservice",
+      "namespace": ""
+    },
+    {
+      "id": "-paymentservice",
+      "workload": "paymentservice",
+      "namespace": ""
+    }
+  ],
+  "edges": [
+    {
+      "id": "demo-ng-search-service--b-2.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "source": "demo-ng-search-service",
+      "target": "-b-2.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "protocol": "kafka",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-recommendationservice-demo-ng-productcatalogservice",
+      "source": "demo-ng-recommendationservice",
+      "target": "demo-ng-productcatalogservice",
+      "protocol": "grpc",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-frontend-demo-ng-productcatalogservice",
+      "source": "demo-ng-frontend",
+      "target": "demo-ng-productcatalogservice",
+      "protocol": "grpc",
+      "isError": true
+    },
+    {
+      "id": "demo-ng-email-service--b-2.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "source": "demo-ng-email-service",
+      "target": "-b-2.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "protocol": "kafka",
+      "isError": false
+    },
+    {
+      "id": "groundcover-groundcover-victoria-metrics-agent-groundcover-portal",
+      "source": "groundcover-groundcover-victoria-metrics-agent",
+      "target": "groundcover-portal",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-frontend-demo-ng-currencyservice",
+      "source": "demo-ng-frontend",
+      "target": "demo-ng-currencyservice",
+      "protocol": "grpc",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-inventory-customer-blue--b-2.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "source": "demo-ng-inventory-customer-blue",
+      "target": "-b-2.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "protocol": "kafka",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-favorites-service--b-2.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "source": "demo-ng-favorites-service",
+      "target": "-b-2.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "protocol": "kafka",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-frontend-demo-ng-checkoutservice",
+      "source": "demo-ng-frontend",
+      "target": "demo-ng-checkoutservice",
+      "protocol": "grpc",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-cartservice-demo-ng-redis-cart",
+      "source": "demo-ng-cartservice",
+      "target": "demo-ng-redis-cart",
+      "protocol": "redis",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-pernstore-consumer-demo-ng-pernstore-backend",
+      "source": "demo-ng-pernstore-consumer",
+      "target": "demo-ng-pernstore-backend",
+      "protocol": "http",
+      "isError": true
+    },
+    {
+      "id": "demo-ng-usersmanagerservice-demo-ng-redis-cart",
+      "source": "demo-ng-usersmanagerservice",
+      "target": "demo-ng-redis-cart",
+      "protocol": "redis",
+      "isError": true
+    },
+    {
+      "id": "demo-ng-checkoutservice-demo-ng-emailservice",
+      "source": "demo-ng-checkoutservice",
+      "target": "demo-ng-emailservice",
+      "protocol": "grpc",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-usersmanagerservice--demo-db.ctg1ib2naodr.eu-west-3.rds.amazonaws.com",
+      "source": "demo-ng-usersmanagerservice",
+      "target": "-demo-db.ctg1ib2naodr.eu-west-3.rds.amazonaws.com",
+      "protocol": "postgresql",
+      "isError": true
+    },
+    {
+      "id": "lens-metrics-prometheus-lens-metrics-node-exporter",
+      "source": "lens-metrics-prometheus",
+      "target": "lens-metrics-node-exporter",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "groundcover-groundcover-groundcover-vmagent-groundcover-groundcover-victoria-metrics",
+      "source": "groundcover-groundcover-groundcover-vmagent",
+      "target": "groundcover-groundcover-victoria-metrics",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-checkoutservice-demo-ng-productcatalogservice",
+      "source": "demo-ng-checkoutservice",
+      "target": "demo-ng-productcatalogservice",
+      "protocol": "grpc",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-email-service--b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "source": "demo-ng-email-service",
+      "target": "-b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "protocol": "kafka",
+      "isError": false
+    },
+    {
+      "id": "groundcover-groundcover-victoria-metrics-agent-groundcover-alligator",
+      "source": "groundcover-groundcover-victoria-metrics-agent",
+      "target": "groundcover-alligator",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-inventory-customer-green--b-2.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "source": "demo-ng-inventory-customer-green",
+      "target": "-b-2.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "protocol": "kafka",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-frontend-demo-ng-recommendationservice",
+      "source": "demo-ng-frontend",
+      "target": "demo-ng-recommendationservice",
+      "protocol": "grpc",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-media-service--b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "source": "demo-ng-media-service",
+      "target": "-b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "protocol": "kafka",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-frontend-demo-ng-cartservice",
+      "source": "demo-ng-frontend",
+      "target": "demo-ng-cartservice",
+      "protocol": "grpc",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-favorites-service--b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "source": "demo-ng-favorites-service",
+      "target": "-b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "protocol": "kafka",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-ticketing-service--b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "source": "demo-ng-ticketing-service",
+      "target": "-b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "protocol": "kafka",
+      "isError": false
+    },
+    {
+      "id": "groundcover-groundcover-victoria-metrics-agent-groundcover-groundcover-victoria-metrics",
+      "source": "groundcover-groundcover-victoria-metrics-agent",
+      "target": "groundcover-groundcover-victoria-metrics",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-checkoutservice-demo-ng-shippingservice",
+      "source": "demo-ng-checkoutservice",
+      "target": "demo-ng-shippingservice",
+      "protocol": "grpc",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-subscription-service--b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "source": "demo-ng-subscription-service",
+      "target": "-b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "protocol": "kafka",
+      "isError": false
+    },
+    {
+      "id": "groundcover-groundcover-victoria-metrics-agent-groundcover-groundcover-groundcover-tsdb",
+      "source": "groundcover-groundcover-victoria-metrics-agent",
+      "target": "groundcover-groundcover-groundcover-tsdb",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-frontend-demo-ng-adservice",
+      "source": "demo-ng-frontend",
+      "target": "demo-ng-adservice",
+      "protocol": "grpc",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-sqsproducer--grndcvr-demo.s3.eu-west-3.amazonaws.com",
+      "source": "demo-ng-sqsproducer",
+      "target": "-grndcvr-demo.s3.eu-west-3.amazonaws.com",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-checkoutservice-demo-ng-paymentservice",
+      "source": "demo-ng-checkoutservice",
+      "target": "demo-ng-paymentservice",
+      "protocol": "grpc",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-inventory-customer-blue--b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "source": "demo-ng-inventory-customer-blue",
+      "target": "-b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "protocol": "kafka",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-currency-service--b-2.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "source": "demo-ng-currency-service",
+      "target": "-b-2.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "protocol": "kafka",
+      "isError": false
+    },
+    {
+      "id": "groundcover-groundcover-victoria-metrics-agent-groundcover-groundcover-groundcover-loki",
+      "source": "groundcover-groundcover-victoria-metrics-agent",
+      "target": "groundcover-groundcover-groundcover-loki",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "groundcover-groundcover-victoria-metrics-agent-groundcover-groundcover-promscale",
+      "source": "groundcover-groundcover-victoria-metrics-agent",
+      "target": "groundcover-groundcover-promscale",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "groundcover-portal-groundcover-groundcover-victoria-metrics",
+      "source": "groundcover-portal",
+      "target": "groundcover-groundcover-victoria-metrics",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-inventory-customer-green--b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "source": "demo-ng-inventory-customer-green",
+      "target": "-b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "protocol": "kafka",
+      "isError": false
+    },
+    {
+      "id": "groundcover-alligator-groundcover-groundcover-vmagent",
+      "source": "groundcover-alligator",
+      "target": "groundcover-groundcover-vmagent",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-subscription-service--b-2.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "source": "demo-ng-subscription-service",
+      "target": "-b-2.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "protocol": "kafka",
+      "isError": false
+    },
+    {
+      "id": "groundcover-alligator-groundcover-groundcover-loki",
+      "source": "groundcover-alligator",
+      "target": "groundcover-groundcover-loki",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-frontend-demo-ng-shippingservice",
+      "source": "demo-ng-frontend",
+      "target": "demo-ng-shippingservice",
+      "protocol": "grpc",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-loadgenerator-demo-ng-frontend",
+      "source": "demo-ng-loadgenerator",
+      "target": "demo-ng-frontend",
+      "protocol": "http",
+      "isError": true
+    },
+    {
+      "id": "demo-ng-sqsconsumer--sqs.eu-west-3.amazonaws.com",
+      "source": "demo-ng-sqsconsumer",
+      "target": "-sqs.eu-west-3.amazonaws.com",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-checkoutservice-demo-ng-cartservice",
+      "source": "demo-ng-checkoutservice",
+      "target": "demo-ng-cartservice",
+      "protocol": "grpc",
+      "isError": false
+    },
+    {
+      "id": "groundcover-groundcover-victoria-metrics-agent-groundcover-groundcover-groundcover-vmagent",
+      "source": "groundcover-groundcover-victoria-metrics-agent",
+      "target": "groundcover-groundcover-groundcover-vmagent",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-sqsconsumer--grndcvr-demo.s3.eu-west-3.amazonaws.com",
+      "source": "demo-ng-sqsconsumer",
+      "target": "-grndcvr-demo.s3.eu-west-3.amazonaws.com",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "groundcover-groundcover-victoria-metrics-agent-groundcover-k8s-watcher",
+      "source": "groundcover-groundcover-victoria-metrics-agent",
+      "target": "groundcover-k8s-watcher",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "groundcover-groundcover-victoria-metrics-agent-groundcover-grafana",
+      "source": "groundcover-groundcover-victoria-metrics-agent",
+      "target": "groundcover-grafana",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-eventfetcherservice--demo-db.ctg1ib2naodr.eu-west-3.rds.amazonaws.com",
+      "source": "demo-ng-eventfetcherservice",
+      "target": "-demo-db.ctg1ib2naodr.eu-west-3.rds.amazonaws.com",
+      "protocol": "postgresql",
+      "isError": false
+    },
+    {
+      "id": "lens-metrics-prometheus-lens-metrics-kube-state-metrics",
+      "source": "lens-metrics-prometheus",
+      "target": "lens-metrics-kube-state-metrics",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "groundcover-groundcover-victoria-metrics-agent-groundcover-groundcover-victoria-metrics-agent",
+      "source": "groundcover-groundcover-victoria-metrics-agent",
+      "target": "groundcover-groundcover-victoria-metrics-agent",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-log-backup--b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "source": "demo-ng-log-backup",
+      "target": "-b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "protocol": "kafka",
+      "isError": false
+    },
+    {
+      "id": "groundcover-alligator-groundcover-groundcover-groundcover-vmagent",
+      "source": "groundcover-alligator",
+      "target": "groundcover-groundcover-groundcover-vmagent",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "groundcover-portal-groundcover-groundcover-tsdb",
+      "source": "groundcover-portal",
+      "target": "groundcover-groundcover-tsdb",
+      "protocol": "postgresql",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-sqsconsumer--sts.eu-west-3.amazonaws.com",
+      "source": "demo-ng-sqsconsumer",
+      "target": "-sts.eu-west-3.amazonaws.com",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "groundcover-groundcover-promscale-groundcover-groundcover-tsdb",
+      "source": "groundcover-groundcover-promscale",
+      "target": "groundcover-groundcover-tsdb",
+      "protocol": "postgresql",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-checkoutservice--cartservice",
+      "source": "demo-ng-checkoutservice",
+      "target": "-cartservice",
+      "protocol": "grpc",
+      "isError": false
+    },
+    {
+      "id": "groundcover-alligator-groundcover-groundcover-groundcover-loki",
+      "source": "groundcover-alligator",
+      "target": "groundcover-groundcover-groundcover-loki",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-media-service--b-2.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "source": "demo-ng-media-service",
+      "target": "-b-2.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "protocol": "kafka",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-checkoutservice--paymentservice",
+      "source": "demo-ng-checkoutservice",
+      "target": "-paymentservice",
+      "protocol": "grpc",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-sqsproducer--sqs.eu-west-3.amazonaws.com",
+      "source": "demo-ng-sqsproducer",
+      "target": "-sqs.eu-west-3.amazonaws.com",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-search-service--b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "source": "demo-ng-search-service",
+      "target": "-b-3.demo.8fcwm3.c3.kafka.eu-west-3.amazonaws.com",
+      "protocol": "kafka",
+      "isError": false
+    },
+    {
+      "id": "lens-metrics-prometheus-lens-metrics-prometheus",
+      "source": "lens-metrics-prometheus",
+      "target": "lens-metrics-prometheus",
+      "protocol": "http",
+      "isError": false
+    },
+    {
+      "id": "demo-ng-checkoutservice-demo-ng-currencyservice",
+      "source": "demo-ng-checkoutservice",
+      "target": "demo-ng-currencyservice",
+      "protocol": "grpc",
+      "isError": false
+    }
+  ]
+}

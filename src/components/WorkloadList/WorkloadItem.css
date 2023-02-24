@@ -1,0 +1,107 @@
+.WorkloadItem {
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  box-shadow: 0px 1px 0.5px rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+  display: flex;
+  /* calc border and flex gap width into the column to be precise 25% of the list view */
+  flex: calc(25% - 16px);
+}
+
+.SideStatus {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgba(64, 65, 69, 0.1);
+  flex: 0 84px;
+  align-items: center;
+  justify-content: center;
+  row-gap: 15px;
+  padding: 24px 0;
+}
+
+.SideStatus-statusImg {
+  width: 45px;
+  height: 45px;
+  pointer-events: none;
+}
+
+.SideStatus-issuesCount {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.SideStatus-issuesCountdescription {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 7.963px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.663583px;
+  color: rgba(64, 65, 69, 0.5);
+}
+
+.WorkloadDetails {
+  padding: 24px 0;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  align-items: start;
+}
+
+.WorkloadDetails-workload {
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 15.9px;
+  color: #333;
+  margin: 0 25px;
+  margin-bottom: 5px;
+}
+
+.WorkloadDetails-namespace {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15.9px;
+  color: rgba(51, 51, 51, 0.5);
+  margin: 0 25px;
+}
+
+.WorkloadDetails-protocols {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.0995375px;
+  display: flex;
+  margin: 0 25px;
+}
+
+.WorkloadDetails-protocol {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.0995375px;
+  display: flex;
+  justify-content: center;
+}
+
+.WorkloadDetails-apexChart {
+  width: 80%;
+  min-height: 115px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.WorkloadDetails-bullet {
+  color: #333;
+  font-size: 15px;
+  margin: 0 5px;
+}
+
+.apexcharts-canvas {
+  margin: 0 auto;
+}

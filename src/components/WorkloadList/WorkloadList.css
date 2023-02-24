@@ -1,0 +1,8 @@
+.WorkloadList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  column-gap: 18px;
+  row-gap: 18px;
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;500;800&display=swap');
+
+html, body {
+  min-height: 100vh;
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', 'Roboto', -apple-system, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: #F3F2EF;
+}
