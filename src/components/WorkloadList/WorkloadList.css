@@ -5,4 +5,5 @@
   width: 100%;
   column-gap: 18px;
   row-gap: 18px;
-}
+  position: relative;
+  }

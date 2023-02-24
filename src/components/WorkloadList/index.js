@@ -1,8 +1,10 @@
 import { useContext } from 'react'
 import { WorkloadListContext } from '../../context/WorkloadProvider';
+import DrawerProvider from '../../context/DrawerProvider';
 
 import './WorkloadList.css';
 import WorkloadItem from './WorkloadItem'
+import WorkloadDrawer from '../WorkloadDrawer'
 
 const WorkloadList = () => {
   const [workloadState] = useContext(WorkloadListContext)
@@ -21,11 +23,14 @@ const WorkloadList = () => {
   }
   
   if (data) { 
-    return <div className="WorkloadList">
-      {data.map((workloadItem, position) => {
-        return <WorkloadItem className="WorkloadItem" key={workloadItem.entityId} {...workloadItem} position={position} />
-      })}
+    return <DrawerProvider>
+      <div className="WorkloadList">
+        {data.map((workloadItem, position) => {
+          return <WorkloadItem className="WorkloadItem" key={workloadItem.entityId} {...workloadItem} position={position} />
+        })}
+        <WorkloadDrawer />
       </div>
+    </DrawerProvider>
   }
 }
 
